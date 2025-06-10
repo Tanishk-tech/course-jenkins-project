@@ -3,7 +3,7 @@ pipeline {
 
     stages {
 
-        stage('checkout1') {
+        stage('checkout2') {
             steps {
                 steps {
                     sh "git clone  https://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@github.com/Tanishk-tech/course-jenkins-project.git -b main"
