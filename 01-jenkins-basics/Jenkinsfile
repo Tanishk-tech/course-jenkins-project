@@ -12,7 +12,7 @@ pipeline {
 
         stage('Setup') {
             steps {
-                sh "pip install -r requirements.txt"
+                sh "pip install -r 01-jenkins-basics/requirements.txt"
             }
         }
         stage('Test') {
